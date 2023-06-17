@@ -12,7 +12,7 @@
   },
   {
     "challenge": "Perpetual Virginity of Mary",
-    "quotes": ["When asked to give birth to Jesus, Mary responds 'How can this be , since I do now know man' - Luke 1:34", "When on the cross, Jesus leaves Mary to John and not another sibling - John 19:26"],
+    "quotes": ["When asked to give birth to Jesus, Mary responds 'How can this be , since I do not know man' - Luke 1:34", "When on the cross, Jesus leaves Mary to John and not another sibling - John 19:26"],
     "picture": "perpetualvirginity.jpg"
   },
   {
@@ -31,6 +31,12 @@
     "challenge": "Praying to and veneration of the Saints",
     "quotes": ["Prayers of saints are offered to God by an angel - Revelation 5:8", "Joshua 'fell on his face to the earth' before an Angel - Joshua 5:14", "Jesus talks to Elijah and Moses - Mark 9:4", "Daniel falls prostrate before Gabriel - Daniel 8:17"],
     "picture": "saints.jpg"
+  },
+  
+  {
+    "challenge":"The Real Presence in the Eucharist",
+    "quotes": ["The Jews then disputed among themselves, saying, “How can this man give us his flesh to eat?” So Jesus said to them, “Truly, truly, I say to you, unless you eat the flesh of the Son of man and drink his blood, you have no life in you; he who eats my flesh and drinks my blood has eternal life, and I will raise him up at the last day. For my flesh is food indeed, and my blood is drink indeed. He who eats my flesh and drinks my blood abides in me, and I in him. As the living Father sent me, and I live because of the Father, so he who eats me will live because of me. This is the bread which came down from heaven, not such as the fathers ate and died; he who eats this bread will live for ever.” - John 6:52-58", "After the above passage, many discples take Jesus literally and say 'This is a hard saying; who can listen to it?' and instead of correcting them Jesus responds saying 'Do you take offense at this? Then what if you were to see the Son of man ascending where he was before?' - John 6:60-62", "Whoever, therefore, eats the bread or drinks the cup of the Lord in an unworthy manner will be guilty of profaning the body and blood of the Lord. Let a man examine himself, and so eat of the bread and drink of the cup. For any one who eats and drinks without discerning the body eats and drinks judgment upon himself - 1 Corinthians 12:27-29"],
+    "picture": "eucharist.jpg" 
   },
 
   {

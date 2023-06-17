@@ -35,17 +35,17 @@
       </nav>
 
       <div class="container text-center">
-       <div class="row row-cols-3">
+       <div class="row row-cols-3" style="row-gap: 15px;">
           {% for quote in biblechallenges %}
           <div class="col">
           <div class="card" style="width: 20rem;">
             <img src="{{ url_for('static', filename = 'images/'+quote['picture'])}}" class="card-img-top" alt="...">
-            <div class="card-body">
+            <div class="card-body" style="background-color: bisque;">
               <h5 class="card-title">{{quote['challenge']}}</h5>
             </div>
             <ul class="list-group list-group-flush">
               {%for biblequotes in quote['quotes'] %}
-              <li class="list-group-item">{{biblequotes}}</li>
+              <li class="list-group-item" style="background-color: bisque; font-style: italic;">{{biblequotes}}</li>
               {% endfor %}
             </ul>
          </div>   
