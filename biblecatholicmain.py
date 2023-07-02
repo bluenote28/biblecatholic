@@ -25,11 +25,12 @@ def return_specific_challenge(challenge):
         if q['challenge'] == challenge:
             quotes = q['quotes']
             picture = q['picture']
+            link = q['link']
         
-    return render_template('challenge.html',biblechallenge=challenge, biblequotes=quotes, challengepicture=picture)
+    return render_template('challenge.html',biblechallenge=challenge, biblequotes=quotes, challengepicture=picture, infolink=link)
 
     
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
