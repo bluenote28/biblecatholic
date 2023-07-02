@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-wdith, initial-scale=1">
     <title>Bibile Catholic</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <style>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>   
+   <style>
       body {
         background-image: url("static/jesusbackground.jpg");
         background-size: cover;
@@ -15,7 +17,7 @@
       </style> 
 </head>
    <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Bible Catholic</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,6 +30,32 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{url_for('about_page')}}">About this Page</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Topics
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Bible plus Tradition')}}">Bible plus Tradition</a></li>
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Calling priests father')}}">Calling priests father</a></li>
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Confession')}}">Confession</a></li>
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Good works do matter')}}">Good works do matter</a></li>
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Infant Baptism')}}">Infant Baptism</a></li> 
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Mary the Mother of God')}}">Mary the Mother of God</a></li>
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Mary being a unique person')}}">Mary being a unique person</a></li>
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Perpetual Virginity of Mary')}}">Perpetual Virginity of Mary</a></li>
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Praying to and veneration of the Saints')}}">Praying to and veneration of the Saints</a></li>
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Purgatory')}}">Purgatory</a></li>                    
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Real Presence in the Eucharist')}}">Real Presence in the Eucharist</a></li>
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='The papacy and the primacy of peter')}}">The papacy and the primacy of peter</a></li>
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='The use of relics')}}">The use of relics</a></li> 
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='The use of statues')}}">The use of statues</a></li> 
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='You can loose your salvation')}}">You can loose your salvation</a></li>
+                
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('challenge_list')}}"#>All topics</a>
               </li>
             </ul>
           </div>
