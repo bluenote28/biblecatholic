@@ -2,89 +2,104 @@
   {
      "challenge":"Mary the Mother of God",
      "quotes": ["Elizabeth calls mary the mother of my lord - Luke 1:43", "Behold a virgin shall conceive and bear a son and his name shall be called Emmanuel (which means God with us) - Matthew 1:23", "But when the time had fully come, God sent forth his Son, born of woman - Galatians 4:4", "But when the time had fully come God sent forth his Son, born of woman, The Holy Spirit will come upon you and the power of the Most High will overshadow you; therefore the child to be born will be called holy, the Son of God - Luke 1:35"],
-     "picture": "marymotherofgod.jpg"
+     "picture": "marymotherofgod.jpg",
+     "link": "https://www.catholic.com/magazine/print-edition/how-can-mary-be-gods-mother"
  },
  
   {
     "challenge":"Mary being a unique person",
     "quotes":["Mary says all generations will call me blessed - Luke 1:48", "Elizabeth says Mary is blessed are you among women - Luke 1:42", "Gabriel greets Mary by saying 'Hail, full of grace'"],
-    "picture": "maryuniqueperson.jpg"
+    "picture": "maryuniqueperson.jpg",
+    "link": "https://www.catholic.com/magazine/online-edition/our-mothers-singular-grace"
    },
    {
      "challenge": "Perpetual Virginity of Mary",
      "quotes": ["When asked to give birth to Jesus, Mary responds 'How can this be , since I do not know man' - Luke 1:34", "When on the cross, Jesus leaves Mary to John and not another sibling - John 19:26"],
-     "picture": "perpetualvirginity.jpg"
+     "picture": "perpetualvirginity.jpg",
+     "link": "https://www.catholic.com/tract/mary-ever-virgin"
    },
    {
      "challenge":"Calling priests father",
      "quotes":["Paul calls himself father of the corinthians - 1 Corinthians 4:14-15", "Stephen calls Jewish council members fathers - Acts 7:2", "Paul addresses Jews as fathers - Acts 22:1"],
-     "picture": "callpriestfather.jpg"
+     "picture": "callpriestfather.jpg",
+     "link": "https://www.catholic.com/tract/call-no-man-father"
    },
  
    {
      "challenge":"Purgatory",
      "quotes":["Nothing unclean will enter heaven - Revelation 21:27", "Sins againt the holy spirit will not be forgiven in this age or the age to come - Matthew 12:32","David is still punished for sin even though he is forgiven by God - 2 Samuel 12:13-14", "If any man’s work is burned up, he will suffer loss, though he himself will be saved, but only as through fire - 1 Corinthians 3:15", "Jesus preaches to 'spirits in prision' - 1 Peter 3:18-20"],
-     "picture": "purgatory.jpg"
+     "picture": "purgatory.jpg",
+     "link": "https://www.catholic.com/magazine/online-edition/is-purgatory-in-the-bible"
    },
    
    {
      "challenge": "Praying to and veneration of the Saints",
      "quotes": ["Prayers of saints are offered to God by an angel - Revelation 5:8", "Joshua 'fell on his face to the earth' before an Angel - Joshua 5:14", "Jesus talks to Elijah and Moses - Mark 9:4", "Daniel falls prostrate before Gabriel - Daniel 8:17"],
-     "picture": "saints.jpg"
+     "picture": "saints.jpg",
+     "link": "https://www.catholic.com/magazine/online-edition/pray-to-the-saints-or-go-directly-to-jesus"
    },
    
    {
      "challenge":"Real Presence in the Eucharist",
      "quotes": ["The Jews then disputed among themselves, saying, “How can this man give us his flesh to eat?” So Jesus said to them, “Truly, truly, I say to you, unless you eat the flesh of the Son of man and drink his blood, you have no life in you; he who eats my flesh and drinks my blood has eternal life, and I will raise him up at the last day. For my flesh is food indeed, and my blood is drink indeed. He who eats my flesh and drinks my blood abides in me, and I in him. As the living Father sent me, and I live because of the Father, so he who eats me will live because of me. This is the bread which came down from heaven, not such as the fathers ate and died; he who eats this bread will live for ever.” - John 6:52-58", "After the above passage, many discples take Jesus literally and say 'This is a hard saying; who can listen to it?' and instead of correcting them Jesus responds saying 'Do you take offense at this? Then what if you were to see the Son of man ascending where he was before?' - John 6:60-62", "Whoever, therefore, eats the bread or drinks the cup of the Lord in an unworthy manner will be guilty of profaning the body and blood of the Lord. Let a man examine himself, and so eat of the bread and drink of the cup. For any one who eats and drinks without discerning the body eats and drinks judgment upon himself - 1 Corinthians 12:27-29"],
-     "picture": "eucharist.jpg" 
+     "picture": "eucharist.jpg",
+     "link": "https://www.catholic.com/tract/the-real-presence"
    },
  
    {
      "challenge":"Confession",
      "quotes":["If you forgive the sins of any, they are forgiven; if you retain the sins of any, they are retained.” - John 20:23", "Therefore confess your sins to one another, and pray for one another, that you may be healed - James 5:16", "All this is from God, who through Christ reconciled us to himself and gave us the ministry of reconciliation - 2 Corinthians 5:18", "Truly, I say to you, whatever you bind on earth shall be bound in heaven, and whatever you loose on earth shall be loosed in heaven - Matthew 18:18", "Prayer of the church elders forgives sins - James 5:13-15"],
-     "picture": "confession.jpg"
+     "picture": "confession.jpg",
+     "link": "https://www.catholic.com/magazine/online-edition/is-confession-in-scripture"
    },
  
    {
      "challenge":"You can loose your salvation",
      "quotes":["“Not every one who says to me, ‘Lord, Lord,’ shall enter the kingdom of heaven, but he who does the will of my Father who is in heaven. On that day many will say to me, ‘Lord, Lord, did we not prophesy in your name, and cast out demons in your name, and do many mighty works in your name?’ And then will I declare to them, ‘I never knew you; depart from me, you evildoers.' - Matthew 7:21-23", "But he who endures to the end will be saved - Matthew 24:13", "Note then the kindness and the severity of God: severity toward those who have fallen, but God’s kindness to you, provided you continue in his kindness; otherwise you too will be cut off - Romans 11:22", "Therefore, my beloved, as you have always obeyed, so now, not only as in my presence but much more in my absence, work out your own salvation with fear and trembling; for God is at work in you, both to will and to work for his good pleasure - Philippians 2:12-13", "Therefore let any one who thinks that he stands take heed lest he fall - 1 Corinthians 10:12", "You are severed from Christ, you who would be justified by the law; you have fallen away from grace - Galatians 5:4", "if we endure, we shall also reign with him; if we deny him, he also will deny us - 2 Timothy 2:12", "For if we sin deliberately after receiving the knowledge of the truth, there no longer remains a sacrifice for sins, but a fearful prospect of judgment, and a fury of fire which will consume the adversaries - Hebrews 10:26-27"],
-     "picture": "loosesalvation.jpg"
+     "picture": "loosesalvation.jpg",
+     "link": "https://www.catholic.com/magazine/online-edition/can-salvation-be-lost"
    },
  
    {
      "challenge":"Bible plus Tradition",
      "quotes": ["I commend you because you remember me in everything and maintain the traditions even as I have delivered them to you - 1 Corinthians 11:2", "So then, brethren, stand firm and hold to the traditions which you were taught by us, either by word of mouth or by letter - 2 Thessalonians 2:15", "Now we command you, brethren, in the name of our Lord Jesus Christ, that you keep away from any brother who is walking in idleness and not in accord with the tradition that you received from us - 2 Thessalonians 3:6", "John says there are many things Jesus said and did that are not written - John 21:25", "First of all you must understand this, that no prophecy of Scripture is a matter of one’s own interpretation - 2 Peter 1:20", "Therefore, my beloved, as you have always obeyed, so now, not only as in my presence but much more in my absence, work out your own salvation with fear and trembling; for God is at work in you, both to will and to work for his good pleasure - Phillipians 2:12-13"],
-     "picture": "bibletradition.jpg"
+     "picture": "bibletradition.jpg",
+     "link": "https://www.catholic.com/magazine/print-edition/sacred-scripture-depends-on-sacred-tradition"
    },
  
    {
      "challenge":"Infant Baptism",
      "quotes": ["Jesus answered, “Truly, truly, I say to you, unless one is born of water and the Spirit, he cannot enter the kingdom of God - John 3:5", "For as in Adam all die, so also in Christ shall all be made alive - 1 Corinthians 15:22", "Baptism replaced circumcision - Colossians 2:11-12", "Paul tells a man 'Believe in the Lord Jesus, and you will be saved, you and your household' then baptizes him and his whole household - Acts 16:28-34"],
-     "picture": "infantbaptism.jpg"
+     "picture": "infantbaptism.jpg",
+     "link": "https://www.catholic.com/magazine/online-edition/infant-baptism"
    },
  
    {
        "challenge": "Good works do matter",
        "quotes": ["For in Christ Jesus neither circumcision nor uncircumcision is of any avail, but faith working through love - Galatians 5:6", "For we are his workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them - Ephesians 2:10", "For he will render to every man according to his works: to those who by patience in well-doing seek for glory and honor and immortality, he will give eternal life - Romans 2:6-7", "What does it profit, my brethren, if a man says he has faith but has not works? Can his faith save him? If a brother or sister is poorly clothed and in lack of daily food, and one of you says to them, “Go in peace, be warmed and filled,” without giving them the things needed for the body, what does it profit? So faith by itself, if it has no works, is dead - James 2:14-17"],
-       "picture": "poor.jpg"
+       "picture": "poor.jpg",
+       "link": "https://www.catholic.com/magazine/online-edition/are-good-works-necessary-for-salvation"
    },
  
    {
      "challenge":"The use of relics",
      "quotes": ["People are cured by face cloths touched by Paul - Acts 19:11-12", "Cures are performed through Peter's shadow - Acts 5:15-16", "Contact with the bones of Elisha revives a man - 2 Kings 13:20-21"],
-     "picture": "relic.jpg"
+     "picture": "relic.jpg",
+     "link": "https://www.catholic.com/qa/is-veneration-of-relics-condemned-by-the-bible"
    },
   
    {
     "challenge":"The use of statues",
     "quotes": ["God commands the Israelites to make two cherubim of gold and to put them on the ark - Exodus 25:18-21", "God tells Moses to make a serpent and set it up as a sign - Numbers 21:8"],
-    "picture": "statues.jpg"
+    "picture": "statues.jpg",
+    "link": "https://www.catholic.com/qa/how-can-the-church-allow-statues-when-exodus-20-forbids-it"
    },
 
    {
     "challenge":"The papacy and the primacy of peter",
     "quotes": ["And I tell you, you are Peter, and on this rock I will build my Church, and the gates of Hades shall not prevail against it. I will give you the keys of the kingdom of heaven, and whatever you bind on earth shall be bound in heaven, and whatever you loose on earth shall be loosed in heaven - Matthew 16:18-19", "Peter is always listed first when scripture lists all of the apostles - Matthew 10:2-4, Mark 3:14-19", "Jesus tells Peter: “Simon, Simon, behold, Satan demanded to have you, that he might sift youk like wheat, but I have prayed for you that your faith may not fail; and when you have turned again, strengthen your brethren - Luke 22:31-32", "Jesus empoweres Peter to walk on water - Matthew 14:22-33", "Peter settles the debate at the council of Jerusalem and after his declaration 'all of the assembly kept silence' - Acts 15:1-12" ],
-    "picture": "st peter.jpg"
+    "picture": "st peter.jpg",
+    "link": "https://www.catholic.com/magazine/online-edition/the-papacy-in-scripture-no-rocks-required"
    }
  
  ]
