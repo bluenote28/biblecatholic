@@ -45,6 +45,7 @@
                   <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Infant Baptism')}}">Infant Baptism</a></li> 
                   <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Mary the Mother of God')}}">Mary the Mother of God</a></li>
                   <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='The Immaculate Conception')}}">Mary's Immaculate Conception</a></li>
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='There must be one church')}}">One Church</a></li>
                   <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Perpetual Virginity of Mary')}}">Perpetual Virginity of Mary</a></li>
                   <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Praying to and veneration of the Saints')}}">Praying to and veneration of the Saints</a></li>
                   <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Purgatory')}}">Purgatory</a></li>                    
@@ -79,7 +80,7 @@
               {%for biblequotes in quote['quotes'] %}
               <li class="list-group-item" style="background-color: bisque; font-style: italic;">{{biblequotes}}</li>
               {% endfor %}
-              <li style="background-color: bisque;"><a href="{{quote['link']}}" class="btn btn-primary">More Information</a></li>
+              <li class="list-group-item" style="background-color: bisque;"><a href="{{quote['link']}}" class="btn btn-primary">More Information</a></li>
             </ul>
          </div>   
         </div>
