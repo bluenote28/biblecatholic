@@ -7,7 +7,7 @@ data = json.load(f)
 
 @app.route('/')
 def mainpage():
-    return render_template("index.html")
+    return render_template("index.html", biblechallenges=data)
 
 @app.route('/challengelist')
 def challenge_list():
@@ -15,7 +15,7 @@ def challenge_list():
 
 @app.route('/about')
 def about_page():
-    return render_template("about.html")
+    return render_template("about.html", biblechallenges=data)
 
 @app.route('/challengelist/<challenge>')
 def return_specific_challenge(challenge):
@@ -27,10 +27,8 @@ def return_specific_challenge(challenge):
             picture = q['picture']
             link = q['link']
         
-    return render_template('challenge.html',biblechallenge=challenge, biblequotes=quotes, challengepicture=picture, infolink=link)
+    return render_template('challenge.html',biblechallenge=challenge, biblequotes=quotes, challengepicture=picture, infolink=link, biblechallenges=data)
 
     
-
-
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)

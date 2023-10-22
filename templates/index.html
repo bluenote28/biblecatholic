@@ -37,26 +37,10 @@
                   Topics
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Apostolic Succession')}}">Apostolic Succession</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Bible plus Tradition')}}">Bible plus Tradition</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Calling priests father')}}">Calling priests father</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Confession')}}">Confession</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Different Levels of Sin')}}">Different Levels of Sin</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Good works do matter')}}">Good works do matter</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Infant Baptism')}}">Infant Baptism</a></li> 
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Mary the Mother of God')}}">Mary the Mother of God</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='The Immaculate Conception')}}">Mary's Immaculate Conception</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='There must be one church')}}">One Church</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Perpetual Virginity of Mary')}}">Perpetual Virginity of Mary</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Praying to and veneration of the Saints')}}">Praying to and veneration of the Saints</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Purgatory')}}">Purgatory</a></li>                    
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Real Presence in the Eucharist')}}">Real Presence in the Eucharist</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Repetitive Prayer')}}">Repetitive Prayer</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='Scandal in the Church')}}">Scandal in the Church</a></li>
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='The use of relics')}}">The use of relics</a></li> 
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='The use of statues')}}">The use of statues</a></li> 
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge='You can loose your salvation')}}">You can loose your salvation</a></li>
-                
+                  {% for quote in biblechallenges %}
+                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge=quote['challenge'])}}">{{quote['challenge']}}</a></li>
+                  {% endfor %}
+                 
                 </ul>
               </li>
               <li class="nav-item">
