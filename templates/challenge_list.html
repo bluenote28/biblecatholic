@@ -16,7 +16,7 @@
       }
       .card-img-top {
             width: 100%;
-            height: 20vw;
+            height: 20rem;
             object-fit: cover;
         }
       </style> 
@@ -60,7 +60,7 @@
           {% for quote in biblechallenges %}
           <div class="col">
           <div class="card" style="width: 20rem;">
-            <img src="{{ url_for('static', filename = 'images/'+quote['picture'])}}" class="card-img-top" alt="...">
+            <img src="{{ url_for('static', filename = 'images/'+quote['picture'])}}" class="card-img-top" alt="{{quote['challenge']}}">
             <div class="card-body" style="background-color: bisque;">
               <h5 class="card-title">{{quote['challenge']}}</h5>
             </div>
