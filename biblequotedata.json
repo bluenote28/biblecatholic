@@ -104,7 +104,7 @@
 
    {
     "challenge":"Apostolic Succession",
-    "quotes": ["After Jesus ascends, the Apostles choose a replacement for Judas - Acts 1:21-26", "You then, my son, be strong in the grace that is in Christ Jesus, and what you have heard from me before many witnesses entrust to faithful men who will be able to teach others also - 2 Timothy 2:1-2", "The saying is sure: If any one aspires to the office of bishop, he desires a noble task. Now a bishop must be above reproach, the husband of one wife, temperate, sensible, dignified, hospitable, an apt teacher, no drunkard, not violent but gentle, not quarrelsome, and no lover of money - 1 Timothy 3:1-3"],
+    "quotes": ["After Jesus ascends, the Apostles choose a replacement for Judas - Acts 1:21-26", "You then, my son, be strong in the grace that is in Christ Jesus, and what you have heard from me before many witnesses entrust to faithful men who will be able to teach others also - 2 Timothy 2:1-2", "The saying is sure: If any one aspires to the office of bishop, he desires a noble task. Now a bishop must be above reproach, the husband of one wife, temperate, sensible, dignified, hospitable, an apt teacher, no drunkard, not violent but gentle, not quarrelsome, and no lover of money - 1 Timothy 3:1-3", "This is why I left you in Crete, that you might amend what was defective, and appoint elders in every town as I directed you - Titus 1:5"],
     "picture": "bishop.jpg",
     "link": "https://www.catholic.com/video/apostolic-succession-in-the-bible"
    },
@@ -135,6 +135,13 @@
     "quotes": ["The glory which you have given me I have given to them, that they may be one even as we are one, I in them and you in me, that they may become perfectly one, so that the world may know that you have sent me and have loved them even as you have loved me - John 17: 22-23", "So if there is any encouragement in Christ, any incentive of love, any participation in the Spirit, any affection and sympathy, complete my joy by being of the same mind, having the same love, being in full accord and of one mind - Phillipians 2:1-2","There is one body and one Spirit, just as you were called to the one hope that belongs to your call, 5one Lord, one faith, one baptism, 6one God and Father of us all, who is above all and through all and in all - Ephesians 4:4-6", "I appeal to you, brethren, to take note of those who create dissensions and difficulties, in opposition to the doctrine which you have been taught; avoid them - Romans 16:17"],
     "picture": "rome.jpg",
     "link": "https://www.catholic.com/magazine/print-edition/how-do-we-know-its-the-true-church"
+   },
+
+   {
+    "challenge": "Original Sin",
+    "quotes": ["Therefore as sin came into the world through one man and death through sin, and so death spread to all men because all men sinned sin indeed was in the world before the law was given, but sin is not counted where there is no law. Yet death reigned from Adam to Moses, even over those whose sins were not like the transgression of Adam, who was a type of the one who was to come. But the free gift is not like the trespass. For if many died through one man’s trespass, much more have the grace of God and the free gift in the grace of that one man Jesus Christ abounded for many. And the free gift is not like the effect of that one man’s sin. For the judgment following one trespass brought condemnation, but the free gift following many trespasses brings justification. If, because of one man’s trespass, death reigned through that one man, much more will those who receive the abundance of grace and the free gift of righteousness reign in life through the one man Jesus Christ. Then as one man’s trespass led to condemnation for all men, so one man’s act of righteousness leads to acquittal and life for all men. For as by one man’s disobedience many were made sinners, so by one man’s obedience many will be made righteous - Romans 5:12-19", "For as by a man came death, by a man has come also the resurrection of the dead. For as in Adam all die, so also in Christ shall all be made alive - 1 Corinthians 15:21-22 "],
+    "picture": "apple.jpg",
+    "link": "https://www.catholic.com/magazine/online-edition/original-sin-blame-your-dad"
    }
  
  ]
