@@ -71,14 +71,14 @@
       <div class="col d-flex justify-content-center">
          <div class="card" style="width: 20rem;">
            <img src="{{ url_for('static', filename = 'images/'+challengepicture)}}" class="card-img-top" alt="challenge picture">
-           <div class="card-body" style="background-color: bisque;">
+           <div class="card-body" style="background-color: bisque; border-right-color: black; border-left-color: black; border-right-width: 2px; border-left-width: 2px;">
              <h5 class="card-title">{{biblechallenge}}</h5>
            </div>
            <ul class="list-group list-group-flush">
              {%for biblequote in biblequotes  %}
-             <li class="list-group-item" style="background-color: bisque; font-style: italic;">{{biblequote}}</li>
+             <li class="list-group-item" style="background-color: bisque; font-style: italic; border-top-color: black; border-top-width: 1px;">{{biblequote}}</li>
              {% endfor %}
-             <li style="background-color: bisque;"><a href="{{infolink}}" class="btn btn-primary">More Information</a></li>
+             <li class="list-group-item" style="background-color: bisque; border-top-color: black; border-top-width: 1px;"><a href="{{infolink}}" class="btn btn-primary">More Information</a></li>
            </ul>
         </div>   
        </div>   

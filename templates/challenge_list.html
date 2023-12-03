@@ -77,9 +77,9 @@
             </div>
             <ul class="list-group list-group-flush">
               {%for biblequotes in quote['quotes'] %}
-              <li class="list-group-item" style="background-color: bisque; font-style: italic;">{{biblequotes}}</li>
+              <li class="list-group-item" style="background-color: bisque; font-style: italic; border-top-color: black; border-top-width: 1px;">{{biblequotes}}</li>
               {% endfor %}
-              <li class="list-group-item" style="background-color: bisque;"><a href="{{quote['link']}}" class="btn btn-primary">More Information</a></li>
+              <li class="list-group-item" style="background-color: bisque; border-top-color: black; border-top-width: 1px;"><a href="{{quote['link']}}" class="btn btn-primary">More Information</a></li>
             </ul>
          </div>   
         </div>
