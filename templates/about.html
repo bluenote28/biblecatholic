@@ -27,38 +27,41 @@
 
 </head>
 <body>
-    <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Bible Catholic</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{{url_for('mainpage')}}">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{url_for('about_page')}}"#>About this Page</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Topics
-                </a>
-                <ul class="dropdown-menu">
-                  {% for quote in biblechallenges %}
-                  <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge=quote['challenge'])}}">{{quote['challenge']}}</a></li>
-                  {% endfor %}
-                 
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{url_for('challenge_list')}}"#>All topics</a>
-              </li>
+  <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Bible Catholic</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{{url_for('mainpage')}}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url_for('about_page')}}">About this Page</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Topics
+            </a>
+            <ul class="dropdown-menu">
+              {% for quote in biblechallenges %}
+              <li><a class="dropdown-item" href="{{url_for('return_specific_challenge', challenge=quote['challenge'])}}">{{quote['challenge']}}</a></li>
+              {% endfor %}
+             
             </ul>
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url_for('challenge_list')}}"#>All topics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url_for('scripture')}}">Church Teaching on Scripture</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <div class="px-4 py-5 my-5 text-center">
         <h1 class="display-5 fw-bold text-body-emphasis">About this page</h1>
         <p class="lead mb-4">This site is a reference site for biblical data that shows the biblical foundation of the Catholic Church and its teachings</p>

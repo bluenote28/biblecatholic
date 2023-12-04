@@ -17,6 +17,10 @@ def challenge_list():
 def about_page():
     return render_template("about.html", biblechallenges=data)
 
+@app.route('/scripture')
+def scripture():
+    return render_template("scripture.html", biblechallenges=data)
+
 @app.route('/challengelist/<challenge>')
 def return_specific_challenge(challenge):
     quotes = []
