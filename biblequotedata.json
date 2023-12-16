@@ -27,7 +27,7 @@
  
    {
      "challenge":"Purgatory",
-     "quotes":["Nothing unclean will enter heaven - Revelation 21:27", "Sins againt the holy spirit will not be forgiven in this age or the age to come - Matthew 12:32","David is still punished for sin even though he is forgiven by God - 2 Samuel 12:13-14", "If any man’s work is burned up, he will suffer loss, though he himself will be saved, but only as through fire - 1 Corinthians 3:15", "Jesus preaches to 'spirits in prison' - 1 Peter 3:18-20"],
+     "quotes":["Nothing unclean will enter heaven - Revelation 21:27", "Sins againt the holy spirit will not be forgiven in this age or the age to come - Matthew 12:32","David is still punished for sin even though he is forgiven by God - 2 Samuel 12:13-14", "If any man’s work is burned up, he will suffer loss, though he himself will be saved, but only as through fire - 1 Corinthians 3:15", "Jesus preaches to 'spirits in prison' - 1 Peter 3:18-20", "Atonement is made for the dead - 2 Maccabees 12:44-45", "Make friends quickly with your accuser, while you are going with him to court, lest your accuser hand you over to the judge, and the judge to the guard, and you be put in prison; truly, I say to you, you will never get out till you have paid the last penny - Matthew 5:25-26"],
      "picture": "purgatory.jpg",
      "link": "https://www.catholic.com/magazine/online-edition/is-purgatory-in-the-bible"
    },
@@ -66,10 +66,17 @@
      "picture": "bibletradition.jpg",
      "link": "https://www.catholic.com/magazine/print-edition/sacred-scripture-depends-on-sacred-tradition"
    },
+
+   {
+     "challenge": "Regenerative Baptism",
+     "quotes": ["Jesus answered, “Truly, truly, I say to you, unless one is born of water and the Spirit, he cannot enter the kingdom of God - John 3:5", "And now why do you wait? Rise and be baptized, and wash away your sins, calling on his name. - Acts 22:16", "Baptism, which corresponds to this, now saves you, not as a removal of dirt from the body but as an appeal to God for a clear conscience, through the resurrection of Jesus Christ - 1 Peter 3:21"],
+     "picture": "baptism.jpg",
+     "link": "https://www.catholic.com/magazine/print-edition/symbolic-baptism-just-wont-wash"
+   },
  
    {
      "challenge":"Infant Baptism",
-     "quotes": ["Jesus answered, “Truly, truly, I say to you, unless one is born of water and the Spirit, he cannot enter the kingdom of God - John 3:5", "For as in Adam all die, so also in Christ shall all be made alive - 1 Corinthians 15:22", "Baptism replaced circumcision - Colossians 2:11-12", "Paul tells a man 'Believe in the Lord Jesus, and you will be saved, you and your household' then baptizes him and his whole household - Acts 16:28-34"],
+     "quotes": ["Jesus answered, “Truly, truly, I say to you, unless one is born of water and the Spirit, he cannot enter the kingdom of God - John 3:5", "For as in Adam all die, so also in Christ shall all be made alive - 1 Corinthians 15:22", "Baptism replaced circumcision - Colossians 2:11-12", "Paul tells a man 'Believe in the Lord Jesus, and you will be saved, you and your household' then baptizes him and his whole household - Acts 16:28-34", "But you were washed, you were sanctified, you were justified in the name of the Lord Jesus Christ and in the Spirit of our God - 1 Corinthians 6:11"],
      "picture": "infantbaptism.jpg",
      "link": "https://www.catholic.com/magazine/online-edition/infant-baptism"
    },
